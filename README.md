@@ -152,3 +152,17 @@ Estructura principal del repositorio:
 │
 └── reports/
     └── curvas_entrenamiento.png  # Curva Train/Val RMSE por época
+```
+
+---
+
+## 📊 Adquisición de Datos
+
+Debido a que los archivos originales exceden el límite de tamaño de GitHub (aprox. 700 MB), estos no se encuentran incluidos en el repositorio. Para replicar el experimento, sigue estos pasos:
+
+1. **Descarga el dataset:** Obtén el archivo `LD2011_2014.txt` desde el [UCI Machine Learning Repository: ElectricityLoadDiagrams20112014](https://archive.ics.uci.edu/ml/datasets/ElectricityLoadDiagrams20112014).
+2. **Preparación de carpetas:** Crea la siguiente ruta en la raíz del proyecto: `data/01_datos_raw/`.
+3. **Ubicación:** Coloca el archivo descargado dentro de la carpeta mencionada con el nombre original.
+4. **Procesamiento:** Al ejecutar `main.py`, el pipeline generará automáticamente el archivo procesado en `data/02_datos_procesados/datos.csv` aplicando las transformaciones y limpiezas descritas.
+
+---
