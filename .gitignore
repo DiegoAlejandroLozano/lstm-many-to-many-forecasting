@@ -1,0 +1,11 @@
+# Ignorar datasets (archivos pesados)
+data/
+*.csv
+
+# Ignorar modelos entrenados
+models/*.pth
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
